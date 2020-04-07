@@ -1,0 +1,15 @@
+adminUser:
+  password: local:akspocpipelinejx/adminUser:password
+  username: admin
+docker:
+  email: it-support@trendminer.com
+  password: local:akspocpipelinejx/docker:password
+  url: https://crpocpipelinejx.azurecr.io
+  username: crpocpipelinejx
+enableDocker: true
+pipelineUser:
+  email: it-support@trendminer.com
+  token: local:akspocpipelinejx/pipelineUser:token
+  username: team-church
+prow:
+  hmacToken: local:akspocpipelinejx/prow:hmacToken
